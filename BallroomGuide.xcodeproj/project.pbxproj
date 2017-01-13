@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		039F2B6E1E28418200EB0DBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039F2B6D1E28418200EB0DBF /* AppDelegate.swift */; };
-		039F2B701E28418200EB0DBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039F2B6F1E28418200EB0DBF /* ViewController.swift */; };
+		039F2B701E28418200EB0DBF /* BGViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039F2B6F1E28418200EB0DBF /* BGViewController.swift */; };
 		039F2B731E28418200EB0DBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 039F2B711E28418200EB0DBF /* Main.storyboard */; };
 		039F2B761E28418200EB0DBF /* BallroomGuide.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 039F2B741E28418200EB0DBF /* BallroomGuide.xcdatamodeld */; };
 		039F2B781E28418200EB0DBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 039F2B771E28418200EB0DBF /* Assets.xcassets */; };
 		039F2B7B1E28418200EB0DBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 039F2B791E28418200EB0DBF /* LaunchScreen.storyboard */; };
 		039F2B861E28418200EB0DBF /* BallroomGuideTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039F2B851E28418200EB0DBF /* BallroomGuideTests.swift */; };
 		039F2B911E28418200EB0DBF /* BallroomGuideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039F2B901E28418200EB0DBF /* BallroomGuideUITests.swift */; };
+		039F2B9F1E285E9A00EB0DBF /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039F2B9E1E285E9A00EB0DBF /* WebViewController.swift */; };
+		039F2BA11E28753300EB0DBF /* InfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 039F2BA01E28753300EB0DBF /* InfoView.xib */; };
+		039F2BA31E2875D200EB0DBF /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039F2BA21E2875D200EB0DBF /* InfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +40,7 @@
 /* Begin PBXFileReference section */
 		039F2B6A1E28418200EB0DBF /* BallroomGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BallroomGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		039F2B6D1E28418200EB0DBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		039F2B6F1E28418200EB0DBF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		039F2B6F1E28418200EB0DBF /* BGViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BGViewController.swift; sourceTree = "<group>"; };
 		039F2B721E28418200EB0DBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		039F2B751E28418200EB0DBF /* BallroomGuide.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BallroomGuide.xcdatamodel; sourceTree = "<group>"; };
 		039F2B771E28418200EB0DBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +52,9 @@
 		039F2B8C1E28418200EB0DBF /* BallroomGuideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BallroomGuideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		039F2B901E28418200EB0DBF /* BallroomGuideUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallroomGuideUITests.swift; sourceTree = "<group>"; };
 		039F2B921E28418200EB0DBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		039F2B9E1E285E9A00EB0DBF /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		039F2BA01E28753300EB0DBF /* InfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoView.xib; sourceTree = "<group>"; };
+		039F2BA21E2875D200EB0DBF /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +106,11 @@
 			isa = PBXGroup;
 			children = (
 				039F2B6D1E28418200EB0DBF /* AppDelegate.swift */,
-				039F2B6F1E28418200EB0DBF /* ViewController.swift */,
+				039F2B6F1E28418200EB0DBF /* BGViewController.swift */,
+				039F2B9E1E285E9A00EB0DBF /* WebViewController.swift */,
+				039F2BA21E2875D200EB0DBF /* InfoViewController.swift */,
 				039F2B711E28418200EB0DBF /* Main.storyboard */,
+				039F2BA01E28753300EB0DBF /* InfoView.xib */,
 				039F2B771E28418200EB0DBF /* Assets.xcassets */,
 				039F2B791E28418200EB0DBF /* LaunchScreen.storyboard */,
 				039F2B7C1E28418200EB0DBF /* Info.plist */,
@@ -238,6 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				039F2BA11E28753300EB0DBF /* InfoView.xib in Resources */,
 				039F2B7B1E28418200EB0DBF /* LaunchScreen.storyboard in Resources */,
 				039F2B781E28418200EB0DBF /* Assets.xcassets in Resources */,
 				039F2B731E28418200EB0DBF /* Main.storyboard in Resources */,
@@ -265,9 +275,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				039F2B701E28418200EB0DBF /* ViewController.swift in Sources */,
+				039F2B701E28418200EB0DBF /* BGViewController.swift in Sources */,
 				039F2B761E28418200EB0DBF /* BallroomGuide.xcdatamodeld in Sources */,
 				039F2B6E1E28418200EB0DBF /* AppDelegate.swift in Sources */,
+				039F2B9F1E285E9A00EB0DBF /* WebViewController.swift in Sources */,
+				039F2BA31E2875D200EB0DBF /* InfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,6 +433,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = X5EX23SJC7;
 				INFOPLIST_FILE = BallroomGuide/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.HOOApps.BallroomGuide;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -434,6 +447,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = X5EX23SJC7;
 				INFOPLIST_FILE = BallroomGuide/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.HOOApps.BallroomGuide;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -518,6 +532,7 @@
 				039F2B971E28418200EB0DBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		039F2B981E28418200EB0DBF /* Build configuration list for PBXNativeTarget "BallroomGuideTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +541,7 @@
 				039F2B9A1E28418200EB0DBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		039F2B9B1E28418200EB0DBF /* Build configuration list for PBXNativeTarget "BallroomGuideUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +550,7 @@
 				039F2B9D1E28418200EB0DBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
