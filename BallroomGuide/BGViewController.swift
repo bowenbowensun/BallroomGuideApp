@@ -34,6 +34,8 @@ class BGViewController: UIViewController {
     
     @IBOutlet weak var latinTable: UITableView!
     
+    
+    
     let infoView: InfoView = UINib(nibName: "InfoView", bundle: nil).instantiate(withOwner: nil, options: nil).first as! InfoView
 
     
@@ -112,12 +114,12 @@ class BGViewController: UIViewController {
     }
     
     @IBAction func showCompGuide(_ sender: Any) {
-        performSegue(withIdentifier: segueID, sender: "http://www.ballroomguide.com/comp.html")
+        performSegue(withIdentifier: segueID, sender: "http://www.ballroomguide.com/comp/competition_locator.html")
         
     }
     
     @IBAction func showBlog(){
-        performSegue(withIdentifier: segueID, sender: "http://ballroomguide.com/resources/blog.html")
+        performSegue(withIdentifier: segueID, sender: "http://www.ballroomguide.com/resources/bgbb_mobile_index.html")
     }
     
     

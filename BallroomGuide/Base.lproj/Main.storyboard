@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="SOq-9D-6UO">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="SOq-9D-6UO">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -105,7 +105,7 @@
                                         <rect key="frame" x="0.0" y="28" width="172.5" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="uzq-a7-Bui" id="RXy-DA-Nzx">
-                                            <rect key="frame" x="0.0" y="0.0" width="172.5" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="172.5" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ZAh-z6-yuA">
@@ -146,7 +146,7 @@
                                         <rect key="frame" x="0.0" y="28" width="172.5" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Cbh-wV-332" id="qQZ-Ka-H00">
-                                            <rect key="frame" x="0.0" y="0.0" width="172.5" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="172.5" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jHd-RC-gdV">
@@ -255,7 +255,7 @@
                                 <rect key="frame" x="192.5" y="275" width="172.5" height="50"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="aYr-Gp-1qI">
-                                        <rect key="frame" x="27" y="10" width="119" height="30"/>
+                                        <rect key="frame" x="20.5" y="10" width="132" height="30"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="price-ribbon" translatesAutoresizingMaskIntoConstraints="NO" id="SC2-DM-aBP">
                                                 <rect key="frame" x="0.0" y="0.0" width="20" height="30"/>
@@ -265,9 +265,9 @@
                                                 </constraints>
                                             </imageView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kGi-Zv-upj">
-                                                <rect key="frame" x="31" y="0.0" width="88" height="30"/>
+                                                <rect key="frame" x="31" y="0.0" width="101" height="30"/>
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
-                                                <state key="normal" title="Comp Guide">
+                                                <state key="normal" title="Comp Locator">
                                                     <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
@@ -383,9 +383,12 @@
                                 </constraints>
                                 <state key="normal" image="chevron-left"/>
                             </button>
-                            <progressView opaque="NO" alpha="0.5" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.10000000149011612" translatesAutoresizingMaskIntoConstraints="NO" id="rzT-yD-aXa">
-                                <rect key="frame" x="0.0" y="635" width="375" height="2"/>
+                            <progressView opaque="NO" alpha="0.5" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.10000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="rzT-yD-aXa">
+                                <rect key="frame" x="0.0" y="633" width="375" height="4"/>
                                 <color key="tintColor" red="0.1346350908" green="0.2766344845" blue="0.38063001629999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="4" id="Af3-Ry-y2v"/>
+                                </constraints>
                             </progressView>
                         </subviews>
                         <color key="backgroundColor" red="0.9298190475" green="0.47238922119999999" blue="0.41520103809999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

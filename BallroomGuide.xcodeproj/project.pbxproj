@@ -17,7 +17,7 @@
 		039F2B911E28418200EB0DBF /* BallroomGuideUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039F2B901E28418200EB0DBF /* BallroomGuideUITests.swift */; };
 		039F2B9F1E285E9A00EB0DBF /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039F2B9E1E285E9A00EB0DBF /* WebViewController.swift */; };
 		039F2BA11E28753300EB0DBF /* InfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 039F2BA01E28753300EB0DBF /* InfoView.xib */; };
-		039F2BA31E2875D200EB0DBF /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039F2BA21E2875D200EB0DBF /* InfoViewController.swift */; };
+		039F2BA31E2875D200EB0DBF /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039F2BA21E2875D200EB0DBF /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +54,7 @@
 		039F2B921E28418200EB0DBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		039F2B9E1E285E9A00EB0DBF /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		039F2BA01E28753300EB0DBF /* InfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoView.xib; sourceTree = "<group>"; };
-		039F2BA21E2875D200EB0DBF /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		039F2BA21E2875D200EB0DBF /* InfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,7 +108,7 @@
 				039F2B6D1E28418200EB0DBF /* AppDelegate.swift */,
 				039F2B6F1E28418200EB0DBF /* BGViewController.swift */,
 				039F2B9E1E285E9A00EB0DBF /* WebViewController.swift */,
-				039F2BA21E2875D200EB0DBF /* InfoViewController.swift */,
+				039F2BA21E2875D200EB0DBF /* InfoView.swift */,
 				039F2B711E28418200EB0DBF /* Main.storyboard */,
 				039F2BA01E28753300EB0DBF /* InfoView.xib */,
 				039F2B771E28418200EB0DBF /* Assets.xcassets */,
@@ -279,7 +279,7 @@
 				039F2B761E28418200EB0DBF /* BallroomGuide.xcdatamodeld in Sources */,
 				039F2B6E1E28418200EB0DBF /* AppDelegate.swift in Sources */,
 				039F2B9F1E285E9A00EB0DBF /* WebViewController.swift in Sources */,
-				039F2BA31E2875D200EB0DBF /* InfoViewController.swift in Sources */,
+				039F2BA31E2875D200EB0DBF /* InfoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
